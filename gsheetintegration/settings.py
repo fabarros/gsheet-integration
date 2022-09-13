@@ -78,10 +78,10 @@ WSGI_APPLICATION = "gsheetintegration.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "psqltest",
-        'USER': 'postgres',
-        'PASSWORD': 'postgres',
-        'HOST': 'localhost',
+        "NAME": "d6mlou441rbi3o",
+        'USER': 'myvfztosfagnpd',
+        'PASSWORD': 'bf1a2260254ce844db04766babcd9b6c32f7027c1526620b455b1e649b582ff1',
+        'HOST': 'ec2-35-168-122-84.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
