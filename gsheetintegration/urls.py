@@ -21,4 +21,5 @@ urlpatterns = [
     path('googlesheet/', include('googlesheet.urls')),
     path('login/', auth_views.LoginView.as_view(), name='login'),
     path('admin/', admin.site.urls),
+    path('', auth_views.LoginView.as_view(), name='login')
 ]
