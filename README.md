@@ -12,7 +12,7 @@
 ## Cómo funciona
 - Es una aplicación básica de Django, que usa la librería de autenticación de Django.
 - La aplicación tiene solo tres rutas: ruta raíz ```/```, ruta login ```/login```, y ruta con la GoogleSheet ```/googlesheet```.
-- La GoogleSheet es un HTML básico con un ```ifram``` embebido. Este ```ifram``` apunta a una hoja de cálculo de Google, son acceso público que puedes encontrar en este link: https://docs.google.com/spreadsheets/d/1pOVy_FuQGYI-yaeGIAsPss9MdmiXOeHbLOBggfhXa7E/edit?usp=sharing.
+- La ruta /googlesheet despliega un HTML básico con un ```ifram``` embebido. Este ```ifram``` apunta a una hoja de cálculo de Google, son acceso público que puedes encontrar en este link: https://docs.google.com/spreadsheets/d/1pOVy_FuQGYI-yaeGIAsPss9MdmiXOeHbLOBggfhXa7E/edit?usp=sharing.
 - La hoja de cálculo implementa un Script usando Apps Scripts de Google para envíar la HTTP POST REQUEST. Este Script es el siguiente (se puede encontrar en la pestaña Extensiones -> Apps Script del GoogleSheet):
 ```
 function validateEmail(email) {
