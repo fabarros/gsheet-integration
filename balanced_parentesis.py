@@ -34,14 +34,14 @@ class BalanceParentesis:
             else:
                 return False
         
-patentesis_error1 = BalanceParentesis("")
-# patentesis_error2 = BalanceParentesis(None)
-# patentesis_error3 = BalanceParentesis(777)
-# patentesis_error4 = BalanceParentesis("(())[]")
 patentesis_test1 = BalanceParentesis("(((((()))))()())")
 patentesis_test2 = BalanceParentesis("((()))(()))")
 patentesis_test3 = BalanceParentesis("((((())")
-
 print(patentesis_test1.is_balanced)
 print(patentesis_test2.is_balanced)
 print(patentesis_test3.is_balanced)
+
+# patentesis_error1 = BalanceParentesis("")
+# patentesis_error2 = BalanceParentesis(None)
+# patentesis_error3 = BalanceParentesis(777)
+# patentesis_error4 = BalanceParentesis("(())[]")
